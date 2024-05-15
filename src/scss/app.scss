@@ -4,18 +4,36 @@ body {
   }
 
 .img-header{
-    height: 30px;
+    height: 40px;
 }
 
 .header-app{
     display: flex;
     justify-content: space-between;
     background-color: orange;
-    padding: 10px;
+    padding: 15px;
+    align-items: center;
 }
 
 .walletConnect{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.address-header{
+    display: flex;
+    align-items: center;
+    border-color: aqua;
+}
+
+.drawer_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wallet{
+    background-color: rgb(244 244 245);
+    padding: 10px;
+    border-radius: 10px;
 }
